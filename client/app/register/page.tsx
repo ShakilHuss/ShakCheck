@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
-import LoginForm from "../Components/auth/LoginForm/LoginForm";
+import RegisterForm from "../Components/auth/RegisterForm/RegisterForm";
 import { useUserContext } from "@/context/userContext";
 import { useRouter } from "next/navigation";
 
@@ -22,7 +22,7 @@ function page() {
 
   return (
     <div className="auth-page w-full h-full flex justify-center items-center">
-      <LoginForm />
+      <RegisterForm />
     </div>
   );
 }
